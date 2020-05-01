@@ -21,7 +21,8 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
-	</head>
+  </head>
+
 	<body>
 		<div class="reveal">
 			<div class="slides">
@@ -38,7 +39,16 @@
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 				hash: true,
+				multiplex: {
+          // ToDo: setup multiplex server, see
+          // https://github.com/hakimel/reveal.js#multiplexing
+          secret: null, // null so the clients do not have control of the master presentation
+		      id: 'XXXXXXXXXXX', // id, obtained from socket.io server
+          url: 'https://reveal-js-multiplex-ccjbegmaii.now.sh' // Location of socket.io server
+    		},
 				dependencies: [
+          { src: '//cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js', async: true },
+      		{ src: 'plugin/multiplex/client.js', async: true },
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/highlight/highlight.js' },
