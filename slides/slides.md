@@ -1,11 +1,30 @@
 <i class="fas fa-comments fa-2x"></i>
 
-## Sichere Kommunikation über Messenger
+<div class="lang-area" data-lang="de">
+
+  ## Sichere Kommunikation über Messenger
+
+</div>
+<div class="lang-area" data-lang="en">
+
+  ## Secure communication via messenger
+
+</div>
 
 ----
 
+<div class="lang-area" data-lang="de">
+
 ## von <i class="fas fa-user"></i> Nu und <i class="fas fa-user"></i> Simon
 ### und euch allen
+
+</div>
+<div class="lang-area" data-lang="en">
+
+## by <i class="fas fa-user"></i> Nu and <i class="fas fa-user"></i> Simon
+### and you all
+
+</div>
 
 ----
 
@@ -133,6 +152,12 @@ Vergleich gängiger kostenloser Messenger, die auf (fast) allen Plattformen unte
 | Verschlüsselung<br>von Gruppen | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> |
 | Finanzierung | Werbung | Werbung | VC-funded | VC-funded | business plan<br>für Firmen | VC-funded/ paid<br>private hosting |
 | Videocalls<br>für Gruppen | <i class="fas fa-question"></i> | bis 4 P. | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> |
+
+----
+
+## Riot
+
+
 
 ----
 
