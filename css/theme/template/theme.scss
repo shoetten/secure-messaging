@@ -187,6 +187,7 @@ body {
 	margin: auto;
 	border-collapse: collapse;
 	border-spacing: 0;
+	font-size: 1.2rem;
 }
 
 .reveal table th {
@@ -213,6 +214,10 @@ body {
 .reveal table tbody tr:last-child th,
 .reveal table tbody tr:last-child td {
 	border-bottom: none;
+}
+
+.reveal table tbody tr:nth-child(2n-1) {
+	background-color: rgba($color: #ddd, $alpha: .1);
 }
 
 .reveal sup {
