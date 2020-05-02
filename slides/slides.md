@@ -37,35 +37,47 @@ Passwörter möglichst nur einmal verwenden.
 
 ----
 
-### Fünf Schutzziele von Kommunikation
+## Fünf Schutzziele von Kommunikation
 
-#### 1. Vertraulichkeit
+--
+
+### 1. Vertraulichkeit
 - nur legitimierte Empfänger dürfen Zugang zu Daten haben
 - "Alice weiß, nur Bob kann ihre Nachricht lesen." (Verschlüsselung)
 
+<small class="chapter-title">Fünf Schutzziele von Kommunikation</small>
+
 --
 
-#### 2. Anonymität
+### 2. Anonymität
 - Vertraulichkeit der Identität
 - "Alice kann bestimmen, wem sie ihre Identität preisgibt."
 
+<small class="chapter-title">Fünf Schutzziele von Kommunikation</small>
+
 --
 
-#### 3. Integrität
+### 3. Integrität
 - Veränderungen Dritter müssen erkannt werden
 - "Bob merkt, wenn Eve etwas verändert hat." (Signatur)
 
+<small class="chapter-title">Fünf Schutzziele von Kommunikation</small>
+
 --
 
-#### 4. Authentizität
+### 4. Authentizität
 - Identitätsnachweis: Echtheit des Senders und der Daten. Widerspricht Anonymität
 - "Bob weiß, dass die Nachricht von Alice kommt." (Signatur)
 
+<small class="chapter-title">Fünf Schutzziele von Kommunikation</small>
+
 --
 
-#### 5. Verfügbarkeit
+### 5. Verfügbarkeit
 - Schutzziele werden in annehmbarer Zeit realisiert
 - "Alice bekommt Bobs (verschlüsselte) Antwort rechtzeitig. Und kann leicht die Authentizität prüfen."
+
+<small class="chapter-title">Fünf Schutzziele von Kommunikation</small>
 
 ----
 
