@@ -46,13 +46,13 @@
       Reveal.initialize({
         hash: true,
         multiplex: {
-          secret: null, // null so the clients do not have control of the master presentation
+          secret: '15884328236329668982', // null so the clients do not have control of the master presentation
           id: '91de756439640930', // id, obtained from socket.io server
           url: 'https://reveal-js-multiplex-ccjbegmaii.now.sh' // Location of socket.io server
         },
         dependencies: [
           { src: 'https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js', async: true },
-          { src: 'plugin/multiplex/client.js', async: true },
+          { src: 'plugin/multiplex/master.js', async: true },
           { src: 'plugin/markdown/marked.js' },
           { src: 'plugin/markdown/markdown.js' },
           { src: 'plugin/highlight/highlight.js' },
