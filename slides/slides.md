@@ -74,6 +74,8 @@
 
 ### Grundlegende Begriffe
 
+--
+
 #### Verschlüsselung
 
 - Nachricht im <abbr>Klartet</abbr>
@@ -81,6 +83,8 @@
 - vom Geheimtext kann nicht auf Klartext geschlossen werden
 - nur mit richtigem Schlüssel kann Verschlüsselung rückgängig gemacht werden
 - Sicherheit des Verfahrens beruht nur auf <abbr>Geheimnis des Schlüssels</abbr>
+
+<small class="chapter-title">Grundlegende Begriffe</small>
 
 --
 
@@ -90,6 +94,8 @@
 - Transportverschlüsselung auf niedriger Ebene kommt unabhängig davon dazu
 - e2e-Nachricht wird erst nach dem Empfangen wieder entschlüsselt
 
+<small class="chapter-title">Grundlegende Begriffe</small>
+
 --
 
 #### Problem: Schlüsselaustausch
@@ -98,6 +104,8 @@
 - es muss sichergestellt werden, dass der Schlüssel richtig übermittelt wurde (**Integrität**)
 - bei Riot funktioniert dies und der **Schlüsselaustausch** automatisch
 - doch es muss **Authentizität** der anderen Person bzw. des Gerätes, von dem Nachrichten gesendet werden, überprüft werden
+
+<small class="chapter-title">Grundlegende Begriffe</small>
 
 ----
 
