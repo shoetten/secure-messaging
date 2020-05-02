@@ -91,6 +91,8 @@ Passwörter möglichst nur einmal verwenden.
 - nur mit dem richtigen Schlüssel kann die Verschlüsselung rückgängig gemacht werden
 - Sicherheit des Verfahrens beruht allein auf Geheimnis des Schlüssels
 
+--
+
 #### Ebenen der Kommunikation
 
 - Elektronische Kommunikation findet auf verschiedenen Schichten statt
@@ -98,6 +100,7 @@ Passwörter möglichst nur einmal verwenden.
 - üblich: **Transportverschlüsselung** (bspw. httpS mit SSL)
 - d.h. Angriff von außen auf den Kommunikationskanal ist nicht möglich
 
+--
 
 #### Ende-zu-Ende-Verschlüsselung (e2e)
 
@@ -105,6 +108,8 @@ Passwörter möglichst nur einmal verwenden.
 - e2e bedeutet, dass Nachrichten schon vor dem Versenden verschlüsselt werden
 - Transportverschlüsselung kommt unabhängig davon dazu
 - e2e-Nachricht wird erst nach dem Empfangen wieder entschlüsselt
+
+--
 
 #### Problem: Schlüsselaustausch
 
