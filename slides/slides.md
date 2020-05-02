@@ -9,9 +9,36 @@
 
 ----
 
+> Endpunkte sind die schwächsten Punkte
+
+<small class="chapter-title">worum es heute nicht geht</small>
+
+--
+
+<abbr title="Android bzw iOS">Betriebssystem</abbr> und App Updates machen!
+
+<p class="fragment">
+  <i class="fas fa-sign-out-alt"></i>
+  Workshop zu Gerätesicherheit
+</p>
+
+<small class="chapter-title">worum es heute nicht geht: gerätesicherheit</small>
+
+--
+
+Passwörter möglichst nur einmal verwenden.
+
+<p class="fragment">
+  <i class="fas fa-sign-out-alt"></i>
+  Workshop zu Passwörtern
+</p>
+
+<small class="chapter-title">worum es heute nicht geht: gute passwörter</small>
+
+----
+
 ## Kriterien zur Bewertung
 #### Was macht einen guten Messenger aus?
-
 
 ----
 

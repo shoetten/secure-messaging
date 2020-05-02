@@ -1775,3 +1775,16 @@ $notesWidthPercent: 25%;
 .zoomed .reveal .roll span:after {
 	visibility: hidden;
 }
+
+/*********************************************
+ * CUSTOM ADDITIONS
+ *********************************************/
+
+.chapter-title {
+  position: absolute;
+  bottom: -15vh;
+  right: 20px;
+  border-top: 2px solid rgba(#93a1a1, 0.6);
+  padding-top: 0.4rem;
+  color: rgba(#93a1a1, 0.6);
+}

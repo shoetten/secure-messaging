@@ -1604,3 +1604,14 @@ body {
 
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
+
+/*********************************************
+ * CUSTOM ADDITIONS
+ *********************************************/
+.chapter-title {
+  position: absolute;
+  bottom: -15vh;
+  right: 20px;
+  border-top: 2px solid rgba(147, 161, 161, 0.6);
+  padding-top: 0.4rem;
+  color: rgba(147, 161, 161, 0.6); }
