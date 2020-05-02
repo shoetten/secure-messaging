@@ -76,35 +76,25 @@
 
 #### Verschlüsselung
 
-- Nachricht liegt im **Klartet** vor
-- wird mit einem **Schlüssel** verrechnet (verschlüsselt) und damit zu einem **Geheimtext**
-- vom Geheimtext kann nicht auf den Klartext geschlossen werden
-- nur mit dem richtigen Schlüssel kann die Verschlüsselung rückgängig gemacht werden
-- Sicherheit des Verfahrens beruht allein auf Geheimnis des Schlüssels
-
---
-
-#### Ebenen der Kommunikation
-
-- Elektronische Kommunikation findet auf verschiedenen Schichten statt
-- auf verschiedenen Schichten kann Informationsstrom verschlüsselt werden
-- üblich: **Transportverschlüsselung** (bspw. httpS mit SSL)
-- d.h. Angriff von außen auf den Kommunikationskanal ist nicht möglich
+- Nachricht im <abbr>Klartet</abbr>
+- wird mit <abbr>Schlüssel</abbr> verrechnet (verschlüsselt) → damit zu <abbr>Geheimtext</abbr>
+- vom Geheimtext kann nicht auf Klartext geschlossen werden
+- nur mit richtigem Schlüssel kann Verschlüsselung rückgängig gemacht werden
+- Sicherheit des Verfahrens beruht nur auf <abbr>Geheimnis des Schlüssels</abbr>
 
 --
 
 #### Ende-zu-Ende-Verschlüsselung (e2e)
 
-- Verschlüssung auf einer höheren Ebene
 - e2e bedeutet, dass Nachrichten schon vor dem Versenden verschlüsselt werden
-- Transportverschlüsselung kommt unabhängig davon dazu
+- Transportverschlüsselung auf niedriger Ebene kommt unabhängig davon dazu
 - e2e-Nachricht wird erst nach dem Empfangen wieder entschlüsselt
 
 --
 
 #### Problem: Schlüsselaustausch
 
-- zu Beginn einer e2e-Kommunikation müssen Schlüssel der Kommunikationspartner erst gegenseitig getauscht werden
+- Beginn der e2e-Kommunikation: Schlüssel von A und B müssen ausgetauscht werden
 - es muss sichergestellt werden, dass der Schlüssel richtig übermittelt wurde (**Integrität**)
 - bei Riot funktioniert dies und der **Schlüsselaustausch** automatisch
 - doch es muss **Authentizität** der anderen Person bzw. des Gerätes, von dem Nachrichten gesendet werden, überprüft werden
@@ -138,6 +128,19 @@ Passwörter möglichst nur einmal verwenden.
 <small class="chapter-title">worum es heute nicht geht: gute passwörter</small>
 
 ----
+
+### Unsere Kriterien
+
+- Open source
+- Dezentral
+- Unterstützte Plattformen
+- Identitätskopplung
+- Wer dahinter steht
+- Verschlüsselung
+- Finanzierung
+- Features
+
+--
 
 ### Was macht einen guten Messenger aus?
 
