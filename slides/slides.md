@@ -121,13 +121,13 @@ Vergleich gängiger kostenloser Messenger, die auf (fast) allen Plattformen unte
 
 |     | Facebook<br>Messenger | WhatsApp | Telegram | Signal | Wire | Riot |
 | --- |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |
-| open source | nein | nein | nein | ja | ja | ja |
-| dezentral | nein | nein | nein | nein | nein | ja |
+| open source | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> |
+| dezentral | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> |
 | Identität | facebook | Tel. | Tel. | Tel. | Mail o. Tel. | Mail |
 | Firma | facebook | facebook | VK-Gründer<br>(Russland/ Dubai) | USA | USA | Vector (UK) |
-| Verschlüsselung<br>von Gruppen | nein | ja | nein | ja | ja | ja |
+| Verschlüsselung<br>von Gruppen | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> |
 | Finanzierung | Werbung | Werbung | VC-funded | VC-funded | business plan<br>für Firmen | VC-funded/ paid<br>private hosting |
-| Videocalls<br>für Gruppen | ? | bis 4 P. | nein | nein | ja | ja |
+| Videocalls<br>für Gruppen | <i class="fas fa-question"></i> | bis 4 P. | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> |
 
 ----
 
