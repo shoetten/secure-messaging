@@ -39,9 +39,9 @@
 </div>
 <div class="lang-area" data-lang="en">
 
-1. introduction
-1. a little bit of theory
-1. practical workshop with the Riot messenger
+1. Introduction
+1. A little bit of theory
+1. Practical workshop with the Riot messenger
 
 <small class="chapter-title">what we will talk about today..</small>
 
@@ -68,10 +68,22 @@
 
 ## Was macht einen guten Messenger aus?
 
+<a href="https://jitsi.technischerpunkt.org/20200503workshopsicheremessenger-1" target="_blank">Kleingruppe 1</a>
+
+<a href="https://jitsi.technischerpunkt.org/20200503workshopsicheremessenger-2" target="_blank">Kleingruppe 2</a>
+
+danach zurück in den <a href="https://jitsi.technischerpunkt.org/20200503workshopsicheremessenger" target="_blank">Hauptraum</a>
+
 </div>
 <div class="lang-area" data-lang="en">
 
 ## What makes up a good messenger?
+
+<a href="https://jitsi.technischerpunkt.org/20200503workshopsicheremessenger-1" target="_blank">small group no. 1</a>
+
+<a href="https://jitsi.technischerpunkt.org/20200503workshopsicheremessenger-2" target="_blank">small group no. 2</a>
+
+afterwards back to <a href="https://jitsi.technischerpunkt.org/20200503workshopsicheremessenger" target="_blank">main room</a>
 
 </div>
 
