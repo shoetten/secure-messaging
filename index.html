@@ -1,87 +1,98 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <title>Sichere Kommunikation über Messenger</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/moon.css">
+  <title>Sichere Kommunikation über Messenger</title>
 
-    <!-- Theme used for syntax highlighting of code -->
-    <link rel="stylesheet" href="lib/css/monokai.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/moon.css">
 
-    <!-- Printing and PDF exports -->
-    <script>
-      var link = document.createElement( 'link' );
-      link.rel = 'stylesheet';
-      link.type = 'text/css';
-      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-      document.getElementsByTagName( 'head' )[0].appendChild( link );
-    </script>
-  </head>
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="lib/css/monokai.css">
 
-  <body>
-    <div class="reveal">
-      <div class="lang-selector">
-        <button class="lang-selector__button lang-selector__button--active" data-lang="de">DE</button>
-        <button class="lang-selector__button" data-lang="en">EN</button>
-      </div>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
 
-      <div class="slides">
-        <section
-          data-markdown="slides/slides01.md"
-          data-separator="^\s----\n\n"
-          data-separator-vertical="^--\n\n"
-          data-separator-notes="^Note:"
-          data-charset="utf-8"
-        >
-        </section>
+  </script>
+</head>
 
-        <section data-background-iframe="https://wbo.ophir.dev/boards/secure-messenging-workshop89521f1" data-background-interactive></section>
-
-        <section
-          data-markdown="slides/slides02.md"
-          data-separator="^\s----\n\n"
-          data-separator-vertical="^--\n\n"
-          data-separator-notes="^Note:"
-          data-charset="utf-8"
-        >
-        </section>
-
-        <section
-          data-background-iframe="https://pad.riseup.net/p/7egtwqMqgloDJynuItNR-tmp?showChat=false&showControls=false"
-          data-background-interactive
-        ></section>
-      </div>
+<body>
+  <div class="reveal">
+    <div class="lang-selector">
+      <button class="lang-selector__button lang-selector__button--active" data-lang="de">DE</button>
+      <button class="lang-selector__button" data-lang="en">EN</button>
     </div>
 
-    <script src="js/reveal.js"></script>
-    <script src="js/lang.js"></script>
+    <div class="slides">
+      <section data-markdown="slides/slides01.md" data-separator="^\s----\n\n" data-separator-vertical="^--\n\n"
+        data-separator-notes="^Note:" data-charset="utf-8">
+      </section>
 
-    <script>
-      // More info about config & dependencies:
-      // - https://github.com/hakimel/reveal.js#configuration
-      // - https://github.com/hakimel/reveal.js#dependencies
-      Reveal.initialize({
-        hash: true,
-        multiplex: {
-          secret: null, // null so the clients do not have control of the master presentation
-          id: '91de756439640930', // id, obtained from socket.io server
-          url: 'https://reveal-js-multiplex-ccjbegmaii.now.sh' // Location of socket.io server
+      <section data-background-iframe="https://wbo.ophir.dev/boards/secure-messenging-workshop89521f1"
+        data-background-interactive></section>
+
+      <section data-markdown="slides/slides02.md" data-separator="^\s----\n\n" data-separator-vertical="^--\n\n"
+        data-separator-notes="^Note:" data-charset="utf-8">
+      </section>
+
+      <section
+        data-background-iframe="https://pad.riseup.net/p/7egtwqMqgloDJynuItNR-tmp?showChat=false&showControls=false"
+        data-background-interactive></section>
+    </div>
+  </div>
+
+  <script src="js/reveal.js"></script>
+  <script src="js/lang.js"></script>
+
+  <script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+      hash: true,
+      multiplex: {
+        secret: null, // null so the clients do not have control of the master presentation
+        id: '91de756439640930', // id, obtained from socket.io server
+        url: 'https://reveal-js-multiplex-ccjbegmaii.now.sh' // Location of socket.io server
+      },
+      dependencies: [{
+          src: 'https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js',
+          async: true
         },
-        dependencies: [
-          { src: 'https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js', async: true },
-          { src: 'plugin/multiplex/client.js', async: true },
-          { src: 'plugin/markdown/marked.js' },
-          { src: 'plugin/markdown/markdown.js' },
-          { src: 'plugin/highlight/highlight.js' },
-          { src: 'plugin/notes/notes.js', async: true },
-          { src: 'node_modules/@fortawesome/fontawesome-free/js/all.min.js', async: true }
-        ]
-      });
-    </script>
-  </body>
+        {
+          src: 'plugin/multiplex/client.js',
+          async: true
+        },
+        {
+          src: 'plugin/markdown/marked.js'
+        },
+        {
+          src: 'plugin/markdown/markdown.js'
+        },
+        {
+          src: 'plugin/highlight/highlight.js'
+        },
+        {
+          src: 'plugin/notes/notes.js',
+          async: true
+        },
+        {
+          src: 'node_modules/@fortawesome/fontawesome-free/js/all.min.js',
+          async: true
+        }
+      ]
+    });
+
+  </script>
+</body>
+
 </html>
