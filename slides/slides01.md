@@ -116,7 +116,7 @@ afterwards back to <a href="https://jitsi.technischerpunkt.org/20200503workshops
 <div class="lang-area" data-lang="en">
 
 ### 1. Confidentiality
-- nur legitimierte Empfänger dürfen Zugang zu Daten haben
+- only intended reciever can read clear text message
 - "Alice knows, that only Bob can read her message." (encryption)
 
 <small class="chapter-title">Five security goals of communication</small>
@@ -218,11 +218,13 @@ afterwards back to <a href="https://jitsi.technischerpunkt.org/20200503workshops
 </div>
 <div class="lang-area" data-lang="en">
 
-## Some vocabulary
+## Basic vocabulary
 
 </div>
 
 --
+
+<div class="lang-area" data-lang="de">
 
 #### Verschlüsselung
 
@@ -233,8 +235,24 @@ afterwards back to <a href="https://jitsi.technischerpunkt.org/20200503workshops
 - Sicherheit des Verfahrens beruht nur auf <abbr>Geheimnis des Schlüssels</abbr>
 
 <small class="chapter-title">Grundlegende Begriffe</small>
+</div>
+
+<div class="lang-area" data-lang="en">
+
+#### Encryption
+
+- Nachricht im <abbr>Klartet</abbr>
+- wird mit <abbr>Schlüssel</abbr> verrechnet (verschlüsselt) → damit zu <abbr>Geheimtext</abbr>
+- vom Geheimtext kann nicht auf Klartext geschlossen werden
+- nur mit richtigem Schlüssel kann Verschlüsselung rückgängig gemacht werden
+- Sicherheit des Verfahrens beruht nur auf <abbr>Geheimnis des Schlüssels</abbr>
+
+<small class="chapter-title">Basic vocabulary</small>
+</div>
 
 --
+
+<div class="lang-area" data-lang="de">
 
 #### Ende-zu-Ende-Verschlüsselung (e2e)
 
@@ -243,8 +261,22 @@ afterwards back to <a href="https://jitsi.technischerpunkt.org/20200503workshops
 - e2e-Nachricht wird erst nach dem Empfangen wieder entschlüsselt
 
 <small class="chapter-title">Grundlegende Begriffe</small>
+</div>
+
+<div class="lang-area" data-lang="en">
+
+#### end to end encryption (e2e)
+
+- e2e bedeutet, dass Nachrichten schon vor dem Versenden verschlüsselt werden
+- Transportverschlüsselung auf niedriger Ebene kommt unabhängig davon dazu
+- e2e-Nachricht wird erst nach dem Empfangen wieder entschlüsselt
+
+<small class="chapter-title">Basic vocabulary</small>
+</div>
 
 --
+
+<div class="lang-area" data-lang="de">
 
 #### Problem: Schlüsselaustausch
 
@@ -254,6 +286,21 @@ afterwards back to <a href="https://jitsi.technischerpunkt.org/20200503workshops
 - doch es muss **Authentizität** der anderen Person bzw. des Gerätes, von dem Nachrichten gesendet werden, überprüft werden
 
 <small class="chapter-title">Grundlegende Begriffe</small>
+</div>
+
+<div class="lang-area" data-lang="en">
+
+#### Problem: key exchacnge
+
+- Beginn der e2e-Kommunikation: Schlüssel von A und B müssen ausgetauscht werden
+- es muss sichergestellt werden, dass der Schlüssel richtig übermittelt wurde (**Integrität**)
+- bei Riot funktioniert dies und der **Schlüsselaustausch** automatisch
+- doch es muss **Authentizität** der anderen Person bzw. des Gerätes, von dem Nachrichten gesendet werden, überprüft werden
+
+
+<small class="chapter-title">Basic vocabulary</small>
+</div>
+
 
 ----
 
