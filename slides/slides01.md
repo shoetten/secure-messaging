@@ -32,7 +32,7 @@
 
 1. Einführung
 1. Ein bisschen Theorie
-1. Praxisteil mit dem Riot Messenger
+1. Praxisteil mit dem Element Messenger
 
 <small class="chapter-title">worüber wir heute reden..</small>
 
@@ -41,7 +41,7 @@
 
 1. Introduction
 1. A little bit of theory
-1. Practical workshop with the Riot messenger
+1. Practical workshop with the Element messenger
 
 <small class="chapter-title">what we will talk about today..</small>
 
@@ -282,7 +282,7 @@ afterwards back to <a href="https://jitsi.technischerpunkt.org/20200503workshops
 
 - Beginn der e2e-Kommunikation: Schlüssel von A und B müssen ausgetauscht werden
 - es muss sichergestellt werden, dass der Schlüssel richtig übermittelt wurde (**Integrität**)
-- bei Riot funktioniert dies und der **Schlüsselaustausch** automatisch
+- bei Element funktioniert dies und der **Schlüsselaustausch** automatisch
 - doch es muss **Authentizität** der anderen Person bzw. des Gerätes, von dem Nachrichten gesendet werden, überprüft werden
 
 <small class="chapter-title">Grundlegende Begriffe</small>
@@ -294,7 +294,7 @@ afterwards back to <a href="https://jitsi.technischerpunkt.org/20200503workshops
 
 - Beginn der e2e-Kommunikation: Schlüssel von A und B müssen ausgetauscht werden
 - es muss sichergestellt werden, dass der Schlüssel richtig übermittelt wurde (**Integrität**)
-- bei Riot funktioniert dies und der **Schlüsselaustausch** automatisch
+- bei Element funktioniert dies und der **Schlüsselaustausch** automatisch
 - doch es muss **Authentizität** der anderen Person bzw. des Gerätes, von dem Nachrichten gesendet werden, überprüft werden
 
 
