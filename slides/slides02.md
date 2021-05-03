@@ -4,15 +4,15 @@
 
 Vergleich gängiger kostenloser Messenger, die auf (fast) allen Plattformen unterstützt werden
 
-|     | Facebook<br>Messenger | WhatsApp | Telegram | Signal | Wire | Element |
-| --- |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |
-| open source | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> |
-| dezentral | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> |
-| Identität | facebook | Tel. | Tel. | Tel. | Mail o. Tel. | Mail |
-| Firma | facebook | facebook | VK-Gründer<br>(Russland/ Dubai) | USA | USA | Vector (UK) |
-| Verschlüsselung<br>von Gruppen | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> |
-| Finanzierung | Werbung | Werbung | VC-funded | VC-funded | business plan<br>für Firmen | VC-funded/ paid<br>private hosting |
-| Videocalls<br>für Gruppen | <i class="fas fa-question"></i> | bis 4 P. | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> |
+|                  | Facebook<br>Messenger | WhatsApp | Telegram | Signal | Wire | Element | Threema
+| ---              |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |
+| open source      | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> |
+| dezentral        | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-times"></i> |
+| Identität        | facebook | Tel. | Tel. | Tel. | Mail o. Tel. | - | - |
+| Firma            | facebook | facebook | <small>VK-Gründer<br>(Ru/Dubai)</small> | USA | USA | Vector (UK) | Threema GmbH <small>(Schweiz)</small> |
+| Verschlüsselung<br>von Gruppen | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> |
+| Finanzierung     | Werbung | Werbung | VC-funded | Spenden & Förderungen | business plan für Firmen | VC-funded/ paid hosting | paid |
+| Videocalls<br>für Gruppen | <i class="fas fa-question"></i> | bis 4 P. | <i class="fas fa-times"></i> | bis 8 P. | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> | <i class="fas fa-times"></i> |
 
 </div>
 <div class="lang-area" data-lang="en">
@@ -21,15 +21,15 @@ Vergleich gängiger kostenloser Messenger, die auf (fast) allen Plattformen unte
 
 Comparism of popular, free messengers, which work an (almost) all platforms.
 
-|     | Facebook<br>Messenger | WhatsApp | Telegram | Signal | Wire | Element |
-| --- |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |
-| open source | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> |
-| decentralized | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> |
-| Identity | facebook | tel. | tel. | tel. | Mail or tel. | Mail |
-| Cooperation | facebook | facebook | VK-founder<br>(Russia/ Dubai) | USA | USA | Vector (UK) |
-| Encryption<br>of groups | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> |
-| Funding | Ads | Ads | VC-funded | VC-funded | business plan<br>for business | VC-funded/ paid<br>private hosting |
-| Videocalls<br>for groups | <i class="fas fa-question"></i> | up to 4 p. | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> |
+|                  | Facebook<br>Messenger | WhatsApp | Telegram | Signal | Wire | Element | Threema
+| ---              |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |
+| open source      | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> |
+| decentralized        | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-times"></i> |
+| Identity        | facebook | Tel. | Tel. | Tel. | Mail o. Tel. | - | - |
+| Corporation            | facebook | facebook | <small>VK-founder<br>(Ru/Dubai)</small> | USA | USA | Vector (UK) | Threema GmbH <small>(Schweiz)</small> |
+| Encryption<br>of groups | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-times"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> |
+| Funding     | Ads | Ads | VC-funded | Donations & Grands | business plan für Firmen | VC-funded/ paid hosting | paid |
+| Videocalls<br>for groups | <i class="fas fa-question"></i> | up to 4 p. | <i class="fas fa-times"></i> | up to 8 p. | <i class="fas fa-check"></i> | <i class="fas fa-check"></i> | <i class="fas fa-times"></i> |
 
 </div>
 
